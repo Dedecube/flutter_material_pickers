@@ -80,7 +80,7 @@ class _ScrollPickerState extends State<ScrollPicker> {
                       (value == selectedValue) ? selectedStyle : defaultStyle;
 
                   return Container(
-                    width: 320,
+                    width: 250,
                     child: Center(
                       child: Text(value, style: itemStyle),
                     ),
