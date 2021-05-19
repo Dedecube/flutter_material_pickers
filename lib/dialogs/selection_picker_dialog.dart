@@ -71,7 +71,7 @@ class _SelectionPickerDialogState extends State<SelectionPickerDialog> {
       backgroundColor: widget.backgroundColor,
       buttonTextColor: widget.buttonTextColor,
       maxLongSide: widget.maxLongSide,
-      maxShortSide: widget.maxLongSide,
+      maxShortSide: widget.maxShortSide,
       confirmText: widget.confirmText,
       cancelText: widget.cancelText,
       child: SelectionPicker(
