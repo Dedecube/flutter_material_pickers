@@ -76,7 +76,6 @@ class _ScrollPickerDialogState extends State<ScrollPickerDialog> {
       confirmText: widget.confirmText,
       cancelText: widget.cancelText,
       child: ScrollPicker(
-        maxShortSide: widget.maxShortSide,
         items: widget.items,
         initialValue: selectedItem,
         showDivider: widget.showDivider,

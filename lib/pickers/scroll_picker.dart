@@ -8,7 +8,6 @@ import 'package:flutter/rendering.dart';
 class ScrollPicker extends StatefulWidget {
   ScrollPicker({
     Key key,
-    @required this.maxShortSide,
     @required this.items,
     @required this.initialValue,
     @required this.onChanged,
@@ -23,7 +22,6 @@ class ScrollPicker extends StatefulWidget {
   final List<String> items;
   final String initialValue;
   final bool showDivider;
-  final double maxShortSide;
 
   @override
   _ScrollPickerState createState() => _ScrollPickerState(initialValue);
@@ -82,7 +80,7 @@ class _ScrollPickerState extends State<ScrollPicker> {
                       (value == selectedValue) ? selectedStyle : defaultStyle;
 
                   return Container(
-                    width: widget.maxShortSide ?? 400,
+                    width: 320,
                     child: Center(
                       child: Text(value, style: itemStyle),
                     ),
