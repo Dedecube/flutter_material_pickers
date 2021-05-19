@@ -82,7 +82,8 @@ class _ScrollPickerState extends State<ScrollPicker> {
                   return Container(
                     width: 250,
                     child: Center(
-                      child: Text(value, style: itemStyle),
+                      child: Text(value,
+                          textAlign: TextAlign.center, style: itemStyle),
                     ),
                   );
                 }),
