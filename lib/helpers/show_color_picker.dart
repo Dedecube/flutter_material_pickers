@@ -44,7 +44,7 @@ void showMaterialColorPicker({
                 pickerColor: selectedColor,
                 onColorChanged: (color) => selectedColor = color,
                 colorPickerWidth: 1000.0,
-                pickerAreaHeightPercent: 0.3,
+                pickerAreaHeightPercent: 0.5,
                 enableAlpha: false,
                 showLabel: false,
                 displayThumbColor: true,
